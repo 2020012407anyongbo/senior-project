@@ -1,0 +1,87 @@
+header{
+    height: 12vh;
+    background-color: rgb(38, 38, 126);
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110vw;
+}
+.logo{
+    float: left;
+    height: 8vh; 
+    margin-left: 1vw;
+    padding: 0;
+    padding-top: 2vh;
+    
+}
+body{
+    height: 100%;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-image: url('./background.jpg');
+    background-size: cover;
+}
+.lightblue{
+    color: rgb(36, 30, 189);
+}
+main{
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 65vw 25vw;
+    grid-template-rows: 90vh;
+    gap: 2vw;
+}
+.left{
+    height: 70vh;
+    margin-top: 5vh;
+    margin-left: 1vw;
+    border: 1px solid black;
+    padding: 2vw;
+    border-radius: 15%;
+}
+.left h1, .left h2, .pro{
+    color: rgb(21, 18, 125);
+}
+.left h1{
+    text-align: center;
+}
+.people{
+    display: grid;
+    width: 30vw;
+    height: 20vh;
+    padding: 1vw;
+    grid-template-columns: 12vw 12vw;
+    margin-top: 4vh;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+figure{
+    padding: 0;
+    margin: 0;
+    width: 8vw;
+}
+figcaption{
+    text-align: center;
+}
+.intro{
+    margin-top: 2vh;
+}
+.pic{
+    /* width: 12vw; */
+    height: 18vh;
+    object-fit: contain;
+}
+.advisor{
+    border: 1px solid black;
+    width: 30vw;
+    border-radius: 10%;
+    padding: 1.5vh;
+    margin-top: 5vh;
+    padding-bottom: 3vh;
+}
+.advisor .p1{
+    text-align: center;
+    
+}
